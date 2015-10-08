@@ -1,9 +1,11 @@
-printIn ("Salario semanal de un obrero.")
-printIn ("Ingresar los datos que se piden por favor.")
+println ("Salario semanal de un obrero.")
+println ("Ingresar los datos que se piden por favor.")
+println ("   ")
 
-printIn ("Horas trabajas: ")
+println ("Horas trabajadas: ")
 	val hotra = readFloat ()
 	val hosal = hotra * 160
+println ("   ")
 
 if ( hotra <= 40) {
     println ("El salario es de: " +hosal)
