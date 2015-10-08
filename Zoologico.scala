@@ -1,5 +1,6 @@
-printIn ("Zoológico.")
-printIn ("Ingresar los datos que se piden por favor.")
+println ("Zoológico.")
+println ("Ingresar los datos que se piden por favor.")
+println ("   ")
 
 var to1 = 0
 var to2 = 0
@@ -26,6 +27,7 @@ if (ani == "elefante") {
   	val por2 = (to2 * 100) / 20
   	val por3 = (to3 * 100) / 20
 
+	println ("   ")
   println ("Porcentaje de animales que se encuentra en la categoria de 0 a 1 año: " +por1)
   println ("Porcentaje de animales que se encuentra en la categoria mayor de 1 y menor a 3 es: " +por2)
   println ("Porcentaje de animales que se encuentra en la categoria de 3 o mas: " +por3)
@@ -49,12 +51,13 @@ if (ani == "jirafa") {
   val por2 = (to2 * 100) / 15
   val por3 = (to3 * 100) / 15
 
+	println ("   ")
   println ("Porcentaje de animales que se encuentra en la categoria de 0 a 1 año: " +por1)
   println ("Porcentaje de animales que se encuentra en la categoria mayor de 1 y menor a 3 es: " +por2)
   println ("Porcentaje de animales que se encuentra en la categoria de 3 o mas: " +por3)
 }
 
-if (animal == "chimpance"){
+if (ani == "chimpance"){
   for (i<-1 to 40) {
     println ("¿Cuál es la edad del animal " + i + "? ")
     	val ed = readInt ()
@@ -72,7 +75,8 @@ if (animal == "chimpance"){
   val por2 = (to2 * 100) / 40
   val por3 = (to3 * 100) / 40
 
-  println ("Porcentaje de animales que se encuentra en la categoria de 0 a 1 año: " +por1)
-  println ("Porcentaje de animales que se encuentra en la categoria mayor de 1 y menor a 3 es: " +por2)
-  println ("Porcentaje de animales que se encuentra en la categoria de 3 o mas: " +por3)
+	println ("   ")
+  println ("Porcentaje de animales que se encuentra en la categoria de 0 a 1 año: " +por1+ " %")
+  println ("Porcentaje de animales que se encuentra en la categoria mayor de 1 y menor a 3 es: " +por2+ " %")
+  println ("Porcentaje de animales que se encuentra en la categoria de 3 o mas: " +por3+ " %")
 }
